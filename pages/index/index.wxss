@@ -1,0 +1,13 @@
+/* .serB{width: 720rpx;padding-left: 15rpx;} */
+
+.ipt{border: 1px solid #f3efef;border-radius: 15rpx;height: 80rpx;background-color:#f3efef}
+.tab{display: flex;margin-top: 15rpx;background-color: #f3efef;width: 720rpx;border-radius: 15rpx;margin-left: 15rpx;height: 55rpx;justify-content: space-between;padding-top: 15rpx;}
+.zhpx{margin-left: 20rpx;}
+.zldyx{margin-right: 20rpx;}
+.box{display: flex;background-color:#f3efef ;width: 720rpx;border-radius: 15rpx;margin-left: 15rpx;margin-top: 15rpx;height: 180rpx;}
+.box image{width: 100%;}
+.box-img1{flex:1;margin-left:20rpx;margin-top:8rpx}
+.text{flex:2;display: flex;flex-direction: column;justify-content: space-between;height: 140rpx;margin-top: 12rpx;margin-left: 90rpx;}
+.text-title{font-size: 32rpx;}
+.text-distance{font-size: 25rpx;}
+.box-img2{flex:1;margin-top:5rpx}

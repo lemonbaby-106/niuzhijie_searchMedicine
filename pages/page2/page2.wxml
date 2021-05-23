@@ -1,0 +1,30 @@
+<view class="entirety">
+  <view class="hos1_p"><image src="/pages/images/hos2.png" mode="widthFix"></image></view>
+<view class="header">
+  <!-- <view class="pic"><image src="/pages/images/hos1.png" mode="widthFix"></image></view> -->
+  <!-- <view class="hos1_pic"><image src="/pages/images/hos1.png"></view> -->
+
+  <view class="title">
+    <view class="name">{{name}}</view>
+    <view class="id">
+      <view class="id-img"><image src="/pages/images/phone1.png" ></image></view>
+      <view class="id-id">{{id}}</view>
+    </view>
+    <view class="address">
+      <view class="address-img"><image src="/pages/images/gps1.png" class="address-img .address-size"></image></view>
+      <view class="address-address" style="color: slategray">{{address}} <view bindtap="goThere" class="address-go" style="color:#2A75FE;margin-left:180rpx" ><image src="/pages/images/dir2.png" style="height:60rpx;width:60rpx"></image></view></view>
+    </view>
+    <view class="booking">
+      <view class="booking-img"><image src="/pages/images/booking1.png" style="height:65rpx;width:65rpx"></image></view>
+      <view class="booking-text" bindtap="booking">点击预约挂号</view>
+    </view>
+  </view>
+</view>
+<view style="padding-top:35rpx;font-size:32rpx;margin-left:25rpx;margin-left:25rpx">医院简介：</view>
+<view class="body">
+  　　宁波市镇海区人民医院医疗集团炼化院区创建于1975年，是一家集医疗、预防、康复、保健为一体的二级乙等综合医院；同时是医保定点医院及镇海区农保定点医院。医院已获“全国首批骨质疏松症诊疗技术协作基地”、“全国艾滋病综合防治示范区创建先进集体”、“浙江省平安医院”、“浙江省健康促进医院”、“浙江省绿色医院”、“镇海区文明单位”等称号。医院已取得了粉尘、化学毒物、物理因素、电离辐射作业人员的健康检查资质，是宁波市唯一一家“职业健康检查实践基地”。<text>\n</text>
+　　炼化院区前身为中国石化镇海炼化公司职工医院，2008年1月起移交镇海区人民政府，是直属镇海区卫健局的公益性卫生事业单位。现有职工300多人，其中正高级职称10人，副高级职称40人，中级职称106人。医院设有内科、外科、妇产科、儿科、康复科、五官科、口腔科、中医科、影像科、检验科等17个临床及医技科室以及3个病区。
+
+
+</view>
+</view>

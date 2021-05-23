@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/search_input/search_input",
+    "pages/logs/logs",
+    "pages/welcome/welcome",
+    "pages/page1/page1",
+    "pages/page2/page2",
+    "pages/page3/page3",
+    "pages/page4/page4",
+    "pages/page5/page5",
+    "pages/page6/page6",
+    "pages/map/map"
+
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F5F5F5",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"black",
+    "backgroundColor":"#B2B2A7"
+   
+   
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

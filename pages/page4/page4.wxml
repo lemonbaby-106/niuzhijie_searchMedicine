@@ -1,0 +1,30 @@
+<view class="entirety">
+  <view class="hos1_p"><image src="/pages/images/hos4.png" mode="widthFix"></image></view>
+<view class="header">
+  <!-- <view class="pic"><image src="/pages/images/hos1.png" mode="widthFix"></image></view> -->
+  <!-- <view class="hos1_pic"><image src="/pages/images/hos1.png"></view> -->
+
+  <view class="title">
+    <view class="name">{{name}}</view>
+    <view class="id">
+      <view class="id-img"><image src="/pages/images/phone1.png" ></image></view>
+      <view class="id-id">{{id}}</view>
+    </view>
+    <view class="address">
+      <view class="address-img"><image src="/pages/images/gps1.png" class="address-img .address-size"></image></view>
+      <view class="address-address" style="color: slategray">{{address}} <view bindtap="goThere" class="address-go" style="color:#2A75FE;margin-left:180rpx" ><image src="/pages/images/dir2.png" style="height:60rpx;width:60rpx"></image></view></view>
+    </view>
+    <view class="booking">
+      <view class="booking-img"><image src="/pages/images/booking1.png" style="height:65rpx;width:65rpx"></image></view>
+      <view class="booking-text" bindtap="booking">点击预约挂号</view>
+    </view>
+  </view>
+</view>
+<view style="padding-top:35rpx;font-size:32rpx;margin-left:25rpx;margin-left:25rpx">医院简介：</view>
+<view class="body">
+  　　宁波市镇海区人民医院医疗集团九龙湖院区地处风景秀丽的宁波市镇海区九龙湖风景区，占地面积5331平方米，下设龙源、田顾、杜夹岙、长石、汶溪、九龙湖六个社区卫生服务站，是一所承担预防、保健、医疗、康复、健康教育、计划生育技术服务六位一体基本功能的综合性卫生医疗机构，为宁波市医保定点单位，浙江省规范化社区卫生服务中心。 <text>\n</text>
+  　　院区有医疗门诊楼、公共卫生楼、后勤保障楼、放射楼四幢大楼，建筑面积2273平方米，现有职工80余人，下设全科、口腔、中医针灸、健康管理中心等门诊科室；另有注射、检验、B超、心电图、放射等辅助科室，拥有彩色B超、心电图机、500mA X光机、胎心监护仪、全自动生化分析仪、血沉仪、动态血压监护仪、连体式牙科治疗等仪器，能承担社区常见病和多发病的诊疗和急救工作。 
+
+
+</view>
+</view>

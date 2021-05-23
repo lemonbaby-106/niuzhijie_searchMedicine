@@ -1,0 +1,3 @@
+<view class="pic">
+  <image  src="/pages/images/image1.png "mode="widthFix"></image>
+</view>

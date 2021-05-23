@@ -1,0 +1,31 @@
+<view class="entirety">
+  <view class="hos1_p"><image src="/pages/images/hos5.png" mode="widthFix"></image></view>
+<view class="header">
+  <!-- <view class="pic"><image src="/pages/images/hos1.png" mode="widthFix"></image></view> -->
+  <!-- <view class="hos1_pic"><image src="/pages/images/hos1.png"></view> -->
+
+  <view class="title">
+    <view class="name">{{name}}</view>
+    <view class="id">
+      <view class="id-img"><image src="/pages/images/phone1.png" ></image></view>
+      <view class="id-id">{{id}}</view>
+    </view>
+    <view class="address">
+      <view class="address-img"><image src="/pages/images/gps1.png" class="address-img .address-size"></image></view>
+      <view class="address-address" style="color: slategray">{{address}} <view bindtap="goThere" class="address-go" style="color:#2A75FE;margin-left:180rpx" ><image src="/pages/images/dir2.png" style="height:60rpx;width:60rpx"></image></view></view>
+    </view>
+    <view class="booking">
+      <view class="booking-img"><image src="/pages/images/booking1.png" style="height:65rpx;width:65rpx"></image></view>
+      <view class="booking-text" bindtap="booking">点击预约挂号</view>
+    </view>
+  </view>
+</view>
+<view style="padding-top:35rpx;font-size:32rpx;margin-left:25rpx">医院简介：</view>
+<view class="body">
+  　　宁波市镇海区人民医院医疗集团骆驼院区位于甬江之北，始建于1955年，具有深厚的文化底蕴和发展历史。2005年增挂社区卫生服务中心牌子，是一家集预防、保健、医疗、康复、健康教育、计划生育技术指导等“六位一体”功能的社区卫生服务机构，承载着为骆驼街道7万多位居民健康保驾护航的职能。<text>\n</text>
+  　院区医疗综合用房8018.24平方米，按照国家级标准化社区卫生服务中心建造，布局合理，环境温馨。医院下设11个社区卫生服务站、13支家庭医生服务团队，社区卫生服务网络覆盖率100%，布局实现15分钟社区卫生服务圈。现有在岗职工146名，其中卫技人员121名，中高级职称人员70名。<text>\n</text>
+  　骆驼院区坚持“我奉献，您健康”服务宗旨，总结实践“络绎上门”服务、“5i”全生命周期健康管理、智慧居家诊室等创新项目，探索医养结合新模式，将慢病远程管理、中医治未病、分级诊疗、契约式家庭医生等服务引入健康体检，打造社区健康管理服务特色，获全国优质服务示范社区卫生服务中心、浙江省百强社区卫生服务中心、浙江省中医药特色社区卫生服务中心称号。
+
+
+</view>
+</view>

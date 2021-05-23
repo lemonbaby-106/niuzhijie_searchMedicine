@@ -1,0 +1,31 @@
+<view class="entirety">
+  <view class="hos1_p"><image src="/pages/images/hos3.png" mode="widthFix"></image></view>
+<view class="header">
+  <!-- <view class="pic"><image src="/pages/images/hos1.png" mode="widthFix"></image></view> -->
+  <!-- <view class="hos1_pic"><image src="/pages/images/hos1.png"></view> -->
+
+  <view class="title">
+    <view class="name">{{name}}</view>
+    <view class="id">
+      <view class="id-img"><image src="/pages/images/phone1.png" ></image></view>
+      <view class="id-id">{{id}}</view>
+    </view>
+    <view class="address">
+      <view class="address-img"><image src="/pages/images/gps1.png" class="address-img .address-size"></image></view>
+      <view class="address-address" style="color: slategray">{{address}} <view bindtap="goThere" class="address-go" style="color:#2A75FE;margin-left:180rpx" ><image src="/pages/images/dir2.png" style="height:60rpx;width:60rpx"></image></view></view>
+    </view>
+    <view class="booking">
+      <view class="booking-img"><image src="/pages/images/booking1.png" style="height:65rpx;width:65rpx"></image></view>
+      <view class="booking-text" bindtap="booking">点击预约挂号</view>
+    </view>
+  </view>
+</view>
+<view style="padding-top:35rpx;font-size:32rpx;margin-left:25rpx;margin-left:25rpx">医院简介：</view>
+<view class="body">
+  　　宁波市镇海区人民医院医疗集团澥浦院区是集健康教育、预防、保健、康复、计划生育技术指导、基本医疗为一体的综合性卫生医疗机构。现总用地面积约7080㎡，总建筑面积约6829.6㎡。设有医疗科、健康管理中心、中医科、药剂科、注射室、疾控卫监科、妇幼保健科（妇科）等业务科室，及检验科、放射科、心电图室、B超室等辅助诊查科室；还设有皮肤科、中医科、口腔科和基层更年期门诊等4个专病专科门诊，2018年在更年期门诊的基础上打造了一支全新的由妇科、妇保、中医、针灸和皮肤科等组成多学科协作团队，成立了“女性医学抗衰老中心”。<text>\n</text> 
+  　　院区设施设备齐全，配备有多普勒彩色B超仪、心电图机、DR(数字X线摄影)、全自动尿液分析仪、全自动生化分析仪、血球分析仪、心电监护仪、除颤仪、电动洗胃机、吸引器、呼吸机等 。现有职工85名，卫生专业技术人员73名，其中高级职称7名，中级职称28名。根据社区卫生服务工作需求，下设湾塘、岚山、觉渡、庙戴、十七房、沿山六个社区卫生服务站，下辖村卫生室15个，共组建成立8支责任医生团队。
+
+
+
+</view>
+</view>

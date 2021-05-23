@@ -1,0 +1,31 @@
+<view class="entirety">
+  <view class="hos1_p"><image src="/pages/images/hos1.png" mode="widthFix"></image></view>
+<view class="header">
+  <!-- <view class="pic"><image src="/pages/images/hos1.png" mode="widthFix"></image></view> -->
+  <!-- <view class="hos1_pic"><image src="/pages/images/hos1.png"></view> -->
+
+  <view class="title">
+    <view class="name">{{name}}</view>
+    <view class="id">
+      <view class="id-img"><image src="/pages/images/phone1.png" ></image></view>
+      <view class="id-id">{{id}}</view>
+    </view>
+    <view class="address">
+      <view class="address-img"><image src="/pages/images/gps1.png" class="address-img .address-size"></image></view>
+      <view class="address-address" style="color: slategray">{{address}} <view bindtap="goThere" class="address-go" style="color:#2A75FE;margin-left:180rpx" ><image src="/pages/images/dir2.png" style="height:60rpx;width:60rpx"></image></view></view>
+    </view>
+    <view class="booking">
+      <view class="booking-img"><image src="/pages/images/booking1.png" style="height:65rpx;width:65rpx"></image></view>
+      <view class="booking-text" bindtap="booking">点击预约挂号</view>
+    </view>
+  </view>
+</view>
+<view style="padding-top:35rpx;font-size:35rpx;margin-left:25rpx;margin-left:25rpx">医院简介：</view>
+<view class="body">
+  　　宁波市镇海区人民医院医疗集团总院位于镇海区新城行政文化中心，是按照三级医院标准建设的公立综合性医院，2014年1月成功创建浙江省二级甲等综合医院。
+总院面积占地120亩，目前核定床位600张,现有职工近900余人，是镇海区区域医疗中心，也是镇海区大部分的医疗质控中心和临床检验中心、医学影像诊断中心、病理诊断中心的挂靠单位。11个学科入选 镇海区医学重点建设（扶植）学科。呼吸科和普外科入选宁波市县级医学龙头学科。<text>\n</text>
+　　医院配有朗润1.5T磁共振成像系统、飞利浦数字减影血管造影成像系统（DSA）、荷兰飞利浦16排螺旋CT、明峰16排CT、双板DR、德国西门子中型C形臂X射线系统、日本岛津移动DR、GE Voluson E8彩超、及美国贝克曼生化免疫流水线系统、希森美康血球流水线分析仪、日本奥林巴斯电子胃肠镜、荧光电子支气管镜、德国史托斯腹腔镜、爱尔博氩气刀等先进仪器。<text>\n</text>
+　　总院与上海市红房子医院、宁波市第一医院、宁波市妇女儿童医院开展学科紧密型合作，还与上海中山医院、上海华山医院、上海新华医院、上海肿瘤医院、浙江大学附属第二医院、浙江省人民医院多家国内著名医院建立合作关系，设有“上海市红房子妇产科医院宁波诊疗中心”、“宁波市一院心脏中心镇海分中心”、“镇海区围产医学防治中心”、“宁波市第一医院泌尿肾病中心第五病区”，是镇海区“胸痛中心”、“卒中中心”、“创伤中心”建设单位，“岑雪英胆石病工作室”、“陈晓敏冠心病镇海工作室”、“储慧民心率失常镇海工作室”、“程跃尿路结石镇海工作室”、“蒋照辉博士镇海泌尿外科工作室”等。
+
+</view>
+</view>

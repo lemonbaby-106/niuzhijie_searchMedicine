@@ -1,0 +1,83 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/page1/page1",
+          "pathName": "pages/page1/page1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/welcome/welcome",
+          "pathName": "pages/welcome/welcome",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/page2/page2",
+          "pathName": "pages/page2/page2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/page3/page3",
+          "pathName": "pages/page3/page3",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/page4/page4",
+          "pathName": "pages/page4/page4",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/page5/page5",
+          "pathName": "pages/page5/page5",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/page6/page6",
+          "pathName": "pages/page6/page6",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/test/test",
+          "pathName": "pages/test/test",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/map/map",
+          "pathName": "pages/map/map",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/search_input/search_input",
+          "pathName": "pages/search_input/search_input",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

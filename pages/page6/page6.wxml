@@ -1,0 +1,30 @@
+<view class="entirety">
+  <view class="hos1_p"><image src="/pages/images/hos6.png" mode="widthFix"></image></view>
+<view class="header">
+
+
+  <view class="title">
+    <view class="name">{{name}}</view>
+    <view class="id">
+      <view class="id-img"><image src="/pages/images/phone1.png" ></image></view>
+      <view class="id-id">{{id}}</view>
+    </view>
+    <view class="address">
+      <view class="address-img"><image src="/pages/images/gps1.png" class="address-img .address-size"></image></view>
+      <view class="address-address" style="color: slategray">{{address}} <view bindtap="goThere" class="address-go" style="color:#2A75FE;margin-left:180rpx" ><image src="/pages/images/dir2.png" style="height:60rpx;width:60rpx"></image></view></view>
+    </view>
+    <view class="booking">
+      <view class="booking-img"><image src="/pages/images/booking1.png" style="height:65rpx;width:65rpx"></image></view>
+      <view class="booking-text" bindtap="booking">点击预约挂号</view>
+    </view>
+  </view>
+</view>
+<view style="padding-top:35rpx;font-size:33rpx;margin-left:25rpx">医院简介：</view>
+<view class="body">
+  　　宁波市镇海区人民医院医疗集团庄市院区前身是庄市卫生院，成立于1952年。1991年改名为庄市佩珍医院。2007年迁址庄市大道1501号，占地面积8325平方米，服务人口13万（包括户籍人口和流动人口），下设光明、同心湖、兴庄路、庄市、万市徐、勤勇、高教等7个社区卫生服务站。医院现有职工156人，其中卫生专业技术人员有141人，中高级职称有72人。<text>\n</text>
+  　　庄市院区坚持“服务先行、健康优先”服务理念，突出特色专科服务、做精做细公共卫生、做强做优基本医疗，为庄市辖区5.9万居民的建立建全电子健康档案，全力服务群众，保障辖区百姓健康。2014-2018年，先后成立镇海区首家健康管理中心、镇海区首家社区雾化中心、镇海区首家实施妇幼保健一号通的基层医院。将医疗服务驻进居家养老服务中心，对辖区居民健康实行网格化管理，明确分工、责任到人。网格化管理还融入契约式家庭医生签约服务，推动形成基层首诊、双向转诊、急慢分治、上下联动的分级诊疗模式，切实筑牢基层服务网底，将健康送进百姓家门。
+
+
+
+</view>
+</view>

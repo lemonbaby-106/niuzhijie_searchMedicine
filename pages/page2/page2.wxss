@@ -1,0 +1,19 @@
+.entirety{width: 700rpx;padding-left: 30rpx;background-color:white;margin-left: 10rpx;}
+.hos1_p{margin-left: 15rpx;}
+.header{display: flex;background-color:white;border-radius: 15rpx;}
+.header image{width: 100%;}
+.pic{flex:1;padding-top:60rpx;}
+.title{flex: 2;display: flex;flex-direction: column;justify-content: space-between;padding-left: 30rpx;padding-top: 25rpx;}
+.title .name{font-size: 37rpx;margin-left: -12rpx;}
+.id{display: flex;margin-top: 20rpx;}
+.id .id-img image{width: 50rpx;height: 50rpx;}
+.id .id-id{color: slategray;padding-left: 20rpx;}
+.address{display: flex;font-size: 30rpx;height: 80rpx;}
+.address-address{height: 80rpx;}
+.address-img .address-size{height: 65rpx;width: 65rpx;}
+.address .address-address{padding-left: 10rpx;}
+.address-go{width:60rpx;position: relative;bottom: 58rpx;left: 130rpx;}
+.booking{display: flex;height: 65rpx;}
+.booking-text{color: #e98f36;margin-left: 20rpx;padding-top: 20rpx;border-bottom: 5rpx solid #e98f36;font-size: 35rpx;}
+.body{background-color: white ;border-radius: 15rpx;padding-top:10rpx;color: slategray;}
+

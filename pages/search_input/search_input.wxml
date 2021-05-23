@@ -1,0 +1,12 @@
+<!-- <view class="input_key">
+<input type="text" placeholder="请输入要搜索的药品"> </input>
+</view> -->
+<view class="search_img" >
+  <image src="/pages/images/image1.png" mode="widthFix" style="width:750rpx">
+ 
+  </image>
+ 
+</view>
+<view class="input_key">
+<input type="text" placeholder="请输入要搜索的药品" bindconfirm="bconfirm"> </input>
+</view> 

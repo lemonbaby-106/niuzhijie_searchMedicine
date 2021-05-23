@@ -1,0 +1,1 @@
+.input_key{position: absolute;border: black 1rpx solid;margin-top: -550rpx;border-radius: 15rpx;width: 600rpx;left:80rpx;height: 60rpx;}

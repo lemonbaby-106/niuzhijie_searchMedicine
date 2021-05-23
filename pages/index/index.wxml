@@ -1,0 +1,26 @@
+<!-- <view class="serB">
+      <form bindsubmit="onSubmit">
+    <zJ id="search_input" typename="{{typename}}"></zJ>
+        
+    <input class="ipt" type="text" placeholder="输入药品关键词进行搜索" focus bindconfirm="ackNowledge"></input>
+ </form>
+</view> -->
+<!-- <view class="tab">
+  <view class="zhpx" bindtap="comSort">综合排序</view>
+  <view class="jlyx" bindtap="disSort">距离优先</view>
+  <view class="zldyx" bindtap="typeSort">种类多优先</view>
+</view> -->
+<!-- <button type="primary" value="重新搜索"></button> -->
+<view class="box"wx:for="{{dataList}}" wx:key="this" bindtap="onClick" data-item="{{item}}">
+    <view class="box-img1">
+        <image src="{{item.image}}" style="height: 150rpx;width:180rpx"></image>
+    </view>
+    <view class="text">
+        <view class="text-title">{{item.title}}</view>
+        <view class="text-distance">{{item.distance}}</view>
+    </view>
+    <view class="box-img2">
+        <image src="/pages/images/dir.png" mode="widthFix" style="margin-top:15rpx"></image>
+    </view>
+</view>
+
