@@ -5,12 +5,18 @@ Page({
    */
   data: {
     dataList:[
-      {title:"宁波市镇海区人民医院医疗集团总院",distance:"距离您524m",image:"/pages/images/hos1.png",link:"/pages/page1/page1"},
-      {title:"宁波市镇海区人民医院医疗集团炼化院区",distance:"距离您532m",image:"/pages/images/hos2.png",link:"/pages/page2/page2"},
-      {title:"宁波市镇海区人民医院医疗集团澥浦院区",distance:"距离您302m",image:"/pages/images/hos3.png",link:"/pages/page3/page3"},
-      {title:"宁波市镇海区人民医院医疗集团九龙湖院区",distance:"距离您2.3km",image:"/pages/images/hos4.png",link:"/pages/page4/page4"},
-      {title:"宁波市镇海区人民医院医疗集团骆驼院区",distance:"距离您2.4m",image:"/pages/images/hos5.png",link:"/pages/page5/page5"},
-      {title:"宁波市镇海区人民医院医疗集团庄市院区",distance:"距离您524m",image:"/pages/images/hos6.png",link:"/pages/page6/page6"}
+      {title:"集团总院",distance:"距离您524m",image:"/pages/images/hos1.png",link:"/pages/page1/page1",latitude: 29.97374, 
+      longitude: 121.600983},
+      {title:"炼化院区",distance:"距离您532m",image:"/pages/images/hos2.png",link:"/pages/page2/page2",latitude: 29.97374, 
+      longitude: 121.600983},
+      {title:"澥浦院区",distance:"距离您302m",image:"/pages/images/hos3.png",link:"/pages/page3/page3",latitude: 29.97374, 
+      longitude: 121.600983},
+      {title:"九龙湖院区",distance:"距离您2.3km",image:"/pages/images/hos4.png",link:"/pages/page4/page4",latitude: 29.97374, 
+      longitude: 121.600983},
+      {title:"骆驼院区",distance:"距离您2.4m",image:"/pages/images/hos5.png",link:"/pages/page5/page5",latitude: 29.97374, 
+      longitude: 121.600983},
+      {title:"庄市院区",distance:"距离您524m",image:"/pages/images/hos6.png",link:"/pages/page6/page6",latitude: 29.97374, 
+      longitude:121.600983}
     ],
     typename:"",
     

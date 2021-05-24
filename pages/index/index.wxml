@@ -17,6 +17,7 @@
     </view>
     <view class="text">
         <view class="text-title">{{item.title}}</view>
+        <view class="medicine-img">药品</view>
         <view class="text-distance">{{item.distance}}</view>
     </view>
     <view class="box-img2">
